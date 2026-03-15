@@ -1,0 +1,14 @@
+{{- $data := dict
+  "title" .Title
+  "date" (.Date.Format "2006-01-02T15:04:05Z07:00")
+  "summary" .Summary
+  "description" .Description
+  "report_kind" .Params.report_kind
+  "report_period_start" .Params.report_period_start
+  "report_period_end" .Params.report_period_end
+  "snapshot_time_et" .Params.snapshot_time_et
+  "permalink" .Permalink
+  "projects" .Params.projects
+  "public_notes" .Params.public_notes
+-}}
+{{ $data | jsonify }}

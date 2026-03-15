@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crypto on DevSig</title>
+    <link>https://example.org/tags/crypto/</link>
+    <description>Recent content in Crypto on DevSig</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Mar 2026 08:01:00 -0400</lastBuildDate>
+    <atom:link href="https://example.org/tags/crypto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Weekly Crypto Momentum Report: March 9 to March 15, 2026</title>
+      <link>https://example.org/reports/2026-03-13/</link>
+      <pubDate>Sun, 15 Mar 2026 08:01:00 -0400</pubDate>
+      <guid>https://example.org/reports/2026-03-13/</guid>
+      <description>A weekly public-facing snapshot of crypto project momentum.</description>
+    </item>
+  </channel>
+</rss>

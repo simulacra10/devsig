@@ -1,0 +1,38 @@
+{{ define "main" }}
+
+<section class="home-intro">
+  {{ with .Content }}
+    {{ . }}
+  {{ end }}
+</section>
+
+{{ partial "philosophy.html" . }}
+
+
+
+<section class="recent-reports">
+  <h2>Latest Reports</h2>
+
+  {{ $reports := where site.RegularPages "Section" "reports" }}
+  {{ $recent := first 5 ($reports.ByDate.Reverse) }}
+
+  {{ if gt (len $recent) 0 }}
+    <ul class="report-list">
+      {{ range $recent }}
+        <li class="report-item">
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p class="report-meta">{{ .Date.Format "January 2, 2006" }}</p>
+          {{ with .Summary }}
+            <p>{{ . }}</p>
+          {{ end }}
+        </li>
+      {{ end }}
+    </ul>
+  {{ else }}
+    <p>No reports have been published yet.</p>
+  {{ end }}
+
+  <p><a href="/reports/">View all reports</a></p>
+</section>
+
+{{ end }}

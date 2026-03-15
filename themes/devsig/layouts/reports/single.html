@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<article>
+
+<h1>{{ .Title }}</h1>
+<p>{{ .Date.Format "January 2, 2006" }}</p>
+
+<section class="report-formats">
+Download:
+{{ with .OutputFormats.Get "TXT" }} <a href="{{ .RelPermalink }}">TXT</a> {{ end }}
+{{ with .OutputFormats.Get "JSON" }} · <a href="{{ .RelPermalink }}">JSON</a> {{ end }}
+{{ with .OutputFormats.Get "CSV" }} · <a href="{{ .RelPermalink }}">CSV</a> {{ end }}
+</section>
+
+{{ .Content }}
+
+</article>
+
+{{ end }}

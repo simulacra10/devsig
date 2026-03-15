@@ -1,0 +1,57 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'DevSig'
+theme = 'devsig'
+
+[menus]
+
+  [[menus.main]]
+    name = "Home"
+    pageRef = "/"
+    weight = 10
+
+  [[menus.main]]
+    name = "Reports"
+    pageRef = "/reports"
+    weight = 20
+
+#  [[menus.main]]
+#    name = "Projects"
+#    pageRef = "/projects"
+#    weight = 30
+
+#  [[menus.main]]
+#    name = "Signals"
+#    pageRef = "/signals"
+#    weight = 40
+
+#  [[menus.main]]
+#    name = "Methodology"
+#    pageRef = "/methodology"
+#    weight = 50
+
+[outputs]
+  home = ["HTML"]
+  section = ["HTML"]
+  page = ["HTML", "JSON", "CSV", "TXT"]
+
+[outputFormats.JSON]
+  mediaType = "application/json"
+  baseName = "index"
+
+[outputFormats.CSV]
+  mediaType = "text/csv"
+  baseName = "index"
+
+[outputFormats.TXT]
+  mediaType = "text/plain"
+  baseName = "index"
+
+[frontmatter]
+  date = ["date", "publishDate", "lastmod"]
+
+[[cascade]]
+  outputs = ["HTML", "JSON", "CSV", "TXT"]
+
+  [cascade._target]
+    path = "/reports/**"
