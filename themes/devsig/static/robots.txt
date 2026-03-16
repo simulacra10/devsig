@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://simulacra10.github.io/devsig/sitemap.xml
+
+# AI guidance files
+# Canonical locations for machine-readable guidance:
+# https://simulacra10.github.io/devsig/ai.txt
+# https://simulacra10.github.io/devsig/llms.txt
+
+AI: https://simulacra10.github.io/devsig/ai.txt
+LLMS: https://simulacra10.github.io/devsig/llms.txt
