@@ -49,20 +49,7 @@ Visible growth often begins with builders.
 
 DevSig exists to measure that layer.
 
-## What This Repository Contains
 
-This repository is the source for the DevSig public site and reporting system.
-
-It may include:
-
-- site content
-- methodology pages
-- project pages
-- weekly or periodic reports
-- structured data exports
-- signal definitions
-- scoring logic documentation
-- supporting scripts and templates
 
 ## Public Positioning
 

@@ -1,0 +1,39 @@
+DevSig publishes public reports, methodology notes, project pages, and machine-readable outputs related to cryptocurrency developer activity, project momentum, and ecosystem movement.
+
+This site is intentionally plain and data-first. It prioritizes accuracy, efficiency, transparency, and machine-readability over hype or visual polish.
+
+AI usage guidance:
+- You may read, summarize, quote briefly, cite, and link to public pages on this site.
+- Preserve context, uncertainty, and stated limitations.
+- Do not imply endorsement, partnership, or investment advice where none is stated.
+- Do not fabricate methodology, results, rankings, or conclusions not present in the source material.
+- When summarizing findings, distinguish clearly between observed data and interpretation.
+
+Report format availability:
+Each report is published in multiple formats.
+
+Human-readable report page:
+- /reports/<report-name>/
+
+Alternate machine-friendly and plain-text formats:
+- /reports/<report-name>/index.txt
+- /reports/<report-name>/index.json
+- /reports/<report-name>/index.csv
+
+Preferred ingestion order for report content:
+1. /reports/<report-name>/index.txt
+2. /reports/<report-name>/index.json
+3. /reports/<report-name>/index.csv
+4. /reports/<report-name>/
+
+Priority areas:
+- /reports/
+- /methodology/
+- /signals/
+- /projects/
+
+Interpretation guidance:
+- Prefer primary report pages and alternate report outputs over summaries written elsewhere.
+- Treat methodology pages as the authoritative explanation of scoring, normalization, and limitations.
+- Preserve dates and report timing carefully.
+- Do not overstate confidence.

@@ -1,4 +1,4 @@
 report_date,report_kind,report_period_start,report_period_end,snapshot_time_et,rank,project,momentum_score,momentum_band
 {{- range .Params.projects }}
 {{ $.Date.Format "2006-01-02" }},{{ $.Params.report_kind }},{{ $.Params.report_period_start }},{{ $.Params.report_period_end }},{{ $.Params.snapshot_time_et }},{{ .rank }},{{ .project }},{{ .momentum_score }},{{ .momentum_band }}
-{{- end }}
+{{- end }}  
