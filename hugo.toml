@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'DevSig'
 theme = 'devsig'
 
+[minify]
+  minifyoutput = true
+  
 [menus]
 
   [[menus.main]]
