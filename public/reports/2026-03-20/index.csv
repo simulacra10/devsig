@@ -1,0 +1,11 @@
+report_date,report_kind,report_period_start,report_period_end,snapshot_time_et,rank,project,momentum_score,momentum_band
+2026-03-22,weekly,2026-03-16,2026-03-22,2026-03-22T17:02:00-04:00,1,Curve,91,Exceptional
+2026-03-22,weekly,2026-03-16,2026-03-22,2026-03-22T17:02:00-04:00,2,Ethereum,88,Strong
+2026-03-22,weekly,2026-03-16,2026-03-22,2026-03-22T17:02:00-04:00,3,Sui,82,Strong
+2026-03-22,weekly,2026-03-16,2026-03-22,2026-03-22T17:02:00-04:00,4,Arbitrum,77,Strong
+2026-03-22,weekly,2026-03-16,2026-03-22,2026-03-22T17:02:00-04:00,5,Foundry,73,Elevated
+2026-03-22,weekly,2026-03-16,2026-03-22,2026-03-22T17:02:00-04:00,6,Optimism,68,Elevated
+2026-03-22,weekly,2026-03-16,2026-03-22,2026-03-22T17:02:00-04:00,7,Aptos,64,Elevated
+2026-03-22,weekly,2026-03-16,2026-03-22,2026-03-22T17:02:00-04:00,8,Chainlink,60,Elevated
+2026-03-22,weekly,2026-03-16,2026-03-22,2026-03-22T17:02:00-04:00,9,Bitcoin,56,Moderate
+2026-03-22,weekly,2026-03-16,2026-03-22,2026-03-22T17:02:00-04:00,10,Celestia,52,Moderate  

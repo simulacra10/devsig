@@ -1,0 +1,42 @@
+Weekly Crypto Momentum Report: March 16 to March 22, 2026
+2026-03-22 17:02:00 -04:00
+
+A weekly public-facing snapshot of crypto project momentum.
+
+* Metadata
+:PROPERTIES:
+:REPORT_KIND: weekly
+:PERIOD_START: 2026-03-16
+:PERIOD_END: 2026-03-22
+:SNAPSHOT_ET: 2026-03-22T17:02:00-04:00
+:END:
+
+* Top Projects
+| Rank | Project              | Momentum Score | Band        |
+|------+----------------------+----------------+-------------|
+| 1    | Curve                | 91             | Exceptional |
+| 2    | Ethereum             | 88             | Strong      |
+| 3    | Sui                  | 82             | Strong      |
+| 4    | Arbitrum             | 77             | Strong      |
+| 5    | Foundry              | 73             | Elevated    |
+| 6    | Optimism             | 68             | Elevated    |
+| 7    | Aptos                | 64             | Elevated    |
+| 8    | Chainlink            | 60             | Elevated    |
+| 9    | Bitcoin              | 56             | Moderate    |
+| 10   | Celestia             | 52             | Moderate    |
+
+* Notes
+- This report is a public summary of observed momentum.
+- Public reporting uses the DevSig Momentum Score, a proprietary index.
+- Exact scoring inputs, weights, and internal adjustments are not disclosed.
+- Rankings should be read as directional rather than predictive.
+
+* DevSig Momentum Score
+| Score Range | Classification |
+|-------------+----------------|
+| 90 to 100   | Exceptional    |
+| 75 to 89    | Strong         |
+| 60 to 74    | Elevated       |
+| 45 to 59    | Moderate       |
+| 30 to 44    | Watchlist      |
+| Below 30    | Low            |
