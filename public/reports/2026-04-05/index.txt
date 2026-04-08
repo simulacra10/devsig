@@ -1,0 +1,42 @@
+Weekly Crypto Momentum Report: March 30 to April 5, 2026
+2026-04-05 08:01:00 -04:00
+
+A weekly public-facing snapshot of crypto project momentum.
+
+* Metadata
+:PROPERTIES:
+:REPORT_KIND: weekly
+:PERIOD_START: 2026-03-30
+:PERIOD_END: 2026-04-05
+:SNAPSHOT_ET: 2026-04-05T08:01:00-04:00
+:END:
+
+* Top Projects
+| Rank | Project              | Momentum Score | Band        |
+|------+----------------------+----------------+-------------|
+| 1    | Foundry              | 91             | Exceptional |
+| 2    | Ethereum             | 87             | Strong      |
+| 3    | Hardhat              | 83             | Strong      |
+| 4    | Sui                  | 79             | Strong      |
+| 5    | Chainlink            | 72             | Elevated    |
+| 6    | Arbitrum             | 68             | Elevated    |
+| 7    | Aptos                | 64             | Elevated    |
+| 8    | Optimism             | 60             | Elevated    |
+| 9    | Curve                | 56             | Moderate    |
+| 10   | Cardano              | 52             | Moderate    |
+
+* Notes
+- This report is a public summary of observed momentum.
+- Public reporting uses the DevSig Momentum Score, a proprietary index.
+- Exact scoring inputs, weights, and internal adjustments are not disclosed.
+- Rankings should be read as directional rather than predictive.
+
+* DevSig Momentum Score
+| Score Range | Classification |
+|-------------+----------------|
+| 90 to 100   | Exceptional    |
+| 75 to 89    | Strong         |
+| 60 to 74    | Elevated       |
+| 45 to 59    | Moderate       |
+| 30 to 44    | Watchlist      |
+| Below 30    | Low            |
